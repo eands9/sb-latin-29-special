@@ -357,7 +357,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sentenceBtn(_ sender: Any) {
-        readSentence()
+        answerTxt.text = allWords.list[questionNumber].fullSentence
     }
     
     @IBAction func showWordBtn(_ sender: Any) {
