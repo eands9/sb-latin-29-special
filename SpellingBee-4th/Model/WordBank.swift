@@ -12,10 +12,10 @@ class WordBank{
     var list = [Word]()
     
     init(){
-        list.append(Word(word:"ventilate", sentence:""))
-        list.append(Word(word:"aquatic", sentence:""))
-        list.append(Word(word:"igneous", sentence:""))
-        list.append(Word(word:"reptile", sentence:""))
-        list.append(Word(word:"providence", sentence:""))
+        list.append(Word(word:"message", sentence:""))
+        list.append(Word(word:"tertiary", sentence:""))
+        list.append(Word(word:"nasal", sentence:""))
+        list.append(Word(word:"opera", sentence:""))
+        list.append(Word(word:"renovate", sentence:""))
     }
 }
